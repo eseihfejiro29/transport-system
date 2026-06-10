@@ -10,7 +10,7 @@
 import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const SERVER_URL = "http://localhost:3000";
+const SERVER_URL = "https://transport-backend-05b9.onrender.com";
 
 const ROUTES = [
   "Uselu - Ring Road",

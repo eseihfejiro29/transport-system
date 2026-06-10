@@ -9,7 +9,7 @@
 import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const SERVER_URL = "http://localhost:3000";
+const SERVER_URL = "https://transport-backend-05b9.onrender.com";
 const PASSENGER_ID = "passenger_" + Math.random().toString(36).substr(2, 9);
 
 export default function PassengerApp() {
