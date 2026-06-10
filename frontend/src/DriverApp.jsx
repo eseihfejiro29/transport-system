@@ -9,7 +9,6 @@
 
 import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
-
 const SERVER_URL = "https://transport-backend-05b9.onrender.com";
 
 const ROUTES = [
